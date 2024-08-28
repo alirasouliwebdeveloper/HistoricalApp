@@ -1,0 +1,27 @@
+.sort-categories-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 16px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    padding: 8px;
+  }
+  
+  .sort-category-button {
+    padding: 12px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem; /* Equivalent to wp(4) */
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .sort-category-button.active {
+    background-color: white;
+    color: blue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
